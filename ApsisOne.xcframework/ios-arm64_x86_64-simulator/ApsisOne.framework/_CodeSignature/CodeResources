@@ -6,23 +6,31 @@
 	<dict>
 		<key>Base.xcconfig</key>
 		<data>
-		RAbWD3fFvRPJ1By2qJimTMm2BSE=
+		/fsCVtkeRXJovgct3NwKNSGsYM8=
 		</data>
 		<key>Headers/ApsisOne-Swift.h</key>
 		<data>
-		YbeOwZ03VQh0N1N+sV6roHS2VII=
+		g45baIpCl5JnWTwD1S5fnraqwi4=
 		</data>
 		<key>Headers/ApsisOne.h</key>
 		<data>
-		gmSw5/kQ1iFCIVCAY4Vl4LVf+aM=
+		o+dy1BGbMQ957xb9MH1bZdkWceY=
 		</data>
 		<key>Headers/ApsisOneAPI.h</key>
 		<data>
-		YHH0kYY3WTBu+eLiaFwhxB0ANbQ=
+		phGEDPpGZsnhrVHneyYInTJN0NY=
+		</data>
+		<key>Headers/ONEConsentType.h</key>
+		<data>
+		Y952S/0fxjd45Q6rUbMBQM4A6sc=
+		</data>
+		<key>Headers/ONECustomEvent.h</key>
+		<data>
+		980EMezujAYZdbTmfmEjI41u2Ok=
 		</data>
 		<key>Headers/ONELogLevel.h</key>
 		<data>
-		KEBzmq1c50ry8zo5fMNC89SBnCo=
+		jtkIQ3NlC6ue5yFkv4n8MmqQdNw=
 		</data>
 		<key>Headers/ONEScreenViewEvent.h</key>
 		<data>
@@ -30,7 +38,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		EGADoEMFYq7668SIUuBtOv5gHVE=
+		we99y1G+abQ3BTdUx5OxaEhWeJk=
 		</data>
 		<key>KiteJSONValidator.license</key>
 		<data>
@@ -38,51 +46,51 @@
 		</data>
 		<key>Modules/ApsisOne.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		6Y1Sl8b0PzNzQ4vzGDKVSfSnNJ4=
+		OOurK2YCCxKEKevJep2OnHo6OMo=
 		</data>
 		<key>Modules/ApsisOne.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		4KlsuClK9Vkfr6lirnxpXiYw2+M=
+		j6257GCUz/RzV6f6+U3fFxbtW2g=
 		</data>
 		<key>Modules/ApsisOne.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		yoqPaSfcVS6HgnQwcs4/rn0KZqo=
+		Lw0GH7HzCpUjYvFHAALg12xOOSo=
 		</data>
 		<key>Modules/ApsisOne.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		6Y1Sl8b0PzNzQ4vzGDKVSfSnNJ4=
+		OOurK2YCCxKEKevJep2OnHo6OMo=
 		</data>
 		<key>Modules/ApsisOne.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		4KlsuClK9Vkfr6lirnxpXiYw2+M=
+		j6257GCUz/RzV6f6+U3fFxbtW2g=
 		</data>
 		<key>Modules/ApsisOne.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		yoqPaSfcVS6HgnQwcs4/rn0KZqo=
+		Lw0GH7HzCpUjYvFHAALg12xOOSo=
 		</data>
 		<key>Modules/ApsisOne.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		lY6BX6GLKhVgwTDQ1xgNApbHPyc=
+		YgR1BXKLPlK9+UUqMW50mvWERFs=
 		</data>
 		<key>Modules/ApsisOne.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ZMuWHX+6JdqAbw3vhsd/vKENAy8=
+		GfELgJ6e/LLcUx5S3rYl3d9iLTw=
 		</data>
 		<key>Modules/ApsisOne.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		8rsLUGEPmCXrOP5L2FM9MTCwFGE=
+		A+BJ8GWIWwB7lxe+rK8FAfAH/E0=
 		</data>
 		<key>Modules/ApsisOne.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		lY6BX6GLKhVgwTDQ1xgNApbHPyc=
+		YgR1BXKLPlK9+UUqMW50mvWERFs=
 		</data>
 		<key>Modules/ApsisOne.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		ZMuWHX+6JdqAbw3vhsd/vKENAy8=
+		GfELgJ6e/LLcUx5S3rYl3d9iLTw=
 		</data>
 		<key>Modules/ApsisOne.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		8rsLUGEPmCXrOP5L2FM9MTCwFGE=
+		A+BJ8GWIWwB7lxe+rK8FAfAH/E0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -119,35 +127,49 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/DUVDiDaXgp2D4mDV1wY2awcddtGUyFfhGFw+GFOLxY=
+			zLsH2yDkpoEERQBaJry1GTWuXbSPyOCqb/ATW2X7rhI=
 			</data>
 		</dict>
 		<key>Headers/ApsisOne-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Pere7kz1jC6Z28JyGCia7MjF2yW0M4Xt9tjg0XZM/sM=
+			2QcHW94W1k6/csm8VNuvTvp0PrtGV0lB2B1dAyuGgfc=
 			</data>
 		</dict>
 		<key>Headers/ApsisOne.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1usIHAErzZbHaG4U53k8Y7KIVS9mMiHMk4GyWGdrRGI=
+			EQFy8clvmI3kBP2+rTJr3fA0sYrns7zpTjH7YubDkKk=
 			</data>
 		</dict>
 		<key>Headers/ApsisOneAPI.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AhRXz5c76kLnMrsnxxauD64jop/IfkptzH3oDevegRY=
+			YT4NInKFxHc1JurKJlrA3bCHXEo7lg37VSz3CMYfN/o=
+			</data>
+		</dict>
+		<key>Headers/ONEConsentType.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			VeZomPTwDNCOv5iJ5D162x7Wp8uSw5upV/J9wHRzPwI=
+			</data>
+		</dict>
+		<key>Headers/ONECustomEvent.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			s53YFJwy4bUe/t1JTlRwYWD/hlmum+PI79aO6FUjcQA=
 			</data>
 		</dict>
 		<key>Headers/ONELogLevel.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RpGAi4GaWTcBV1Erhcfv9gLG8SPJKDF1b4sVtVYL1Rg=
+			1UcdRQXA8+dtFgx3OmG/xFNWypSHWTTPXETR6QelVr8=
 			</data>
 		</dict>
 		<key>Headers/ONEScreenViewEvent.h</key>
@@ -168,84 +190,84 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lKR9tH+EjL13j8TZuCouRTHt15GW2hQnD2Df+fmVVHI=
+			VJYXgQz0qfh2Fl5IAxayFjmM8bhE+x6G9a333dZA9j8=
 			</data>
 		</dict>
 		<key>Modules/ApsisOne.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			99WWi56iDo3HzZfzjWPtcNjgdqrFpXEUKdy8KHy4fkE=
+			yw+7VslYfxW3Hp/YmQJP/60QWB8zhC+UrIeZgu9bccU=
 			</data>
 		</dict>
 		<key>Modules/ApsisOne.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tmSP/jXHEj6BL/nphwQnasDCV5t+Nlb/b7c4P+eLDNY=
+			wRW9PI8itynh/wiwRNtW6sJYhmeA8Y0+jXefeh0HF10=
 			</data>
 		</dict>
 		<key>Modules/ApsisOne.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lKR9tH+EjL13j8TZuCouRTHt15GW2hQnD2Df+fmVVHI=
+			VJYXgQz0qfh2Fl5IAxayFjmM8bhE+x6G9a333dZA9j8=
 			</data>
 		</dict>
 		<key>Modules/ApsisOne.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			99WWi56iDo3HzZfzjWPtcNjgdqrFpXEUKdy8KHy4fkE=
+			yw+7VslYfxW3Hp/YmQJP/60QWB8zhC+UrIeZgu9bccU=
 			</data>
 		</dict>
 		<key>Modules/ApsisOne.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tmSP/jXHEj6BL/nphwQnasDCV5t+Nlb/b7c4P+eLDNY=
+			wRW9PI8itynh/wiwRNtW6sJYhmeA8Y0+jXefeh0HF10=
 			</data>
 		</dict>
 		<key>Modules/ApsisOne.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hkfx1DX0kH19OewkYhtDkTblqorfnFZDxhFGoOt8ajg=
+			k4ijnh3sGmPG6qZNy+bM5pI3HseUE3yiwlFiZ5SHL0c=
 			</data>
 		</dict>
 		<key>Modules/ApsisOne.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			I7uZAu8poPZwVdN1ujV+WMIrDSCy3/G2ajhCVd3Y+CA=
+			I7F9OhXVBLNvailBSMu/1ifGH3scME2dOsexcPPLbrY=
 			</data>
 		</dict>
 		<key>Modules/ApsisOne.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KeNgFGJljmvFslp/Yvq4RJ322G+P0bML562TXCjG5Bw=
+			pWi2Kojir2zlG42LFf51XiE0MLPaBQFIAbRWFcKIx3s=
 			</data>
 		</dict>
 		<key>Modules/ApsisOne.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hkfx1DX0kH19OewkYhtDkTblqorfnFZDxhFGoOt8ajg=
+			k4ijnh3sGmPG6qZNy+bM5pI3HseUE3yiwlFiZ5SHL0c=
 			</data>
 		</dict>
 		<key>Modules/ApsisOne.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			I7uZAu8poPZwVdN1ujV+WMIrDSCy3/G2ajhCVd3Y+CA=
+			I7F9OhXVBLNvailBSMu/1ifGH3scME2dOsexcPPLbrY=
 			</data>
 		</dict>
 		<key>Modules/ApsisOne.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KeNgFGJljmvFslp/Yvq4RJ322G+P0bML562TXCjG5Bw=
+			pWi2Kojir2zlG42LFf51XiE0MLPaBQFIAbRWFcKIx3s=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

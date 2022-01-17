@@ -7,7 +7,9 @@
 //
 
 #import <ApsisOne/ONEScreenViewEvent.h>
+#import <ApsisOne/ONECustomEvent.h>
 #import <ApsisOne/ONELogLevel.h>
+#import <ApsisOne/ONEConsentType.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -18,25 +20,39 @@ NS_ASSUME_NONNULL_BEGIN
 @interface ApsisOneAPI : NSObject
 
 /**
- *  Publish collect data consent
+ *  Provide consent with type
  *
- *  @param isCollecting update collecting data state
+ *  @param consentType ONEConsentType
  */
-+ (void)collectDataEnabled:(BOOL)isCollecting;
++ (void)provideConsent:(ONEConsentType)consentType;
 
 /**
- *  Subscribe to event when collection data consent lost in case of Delete or Lock profile
+ *  Remove consent with type
+ *
+ *  @param consentType ONEConsentType
+ */
++ (void)removeConsent:(ONEConsentType)consentType;
+
+/**
+ *  Subscribe to event when consent lost
  *
  *  @param handler block to handle consent lost
  */
-+ (void)subscribeCollectDataConsentLost:(void(^)(void))handler;
++ (void)subscribeOnConsentLost:(void(^)(ONEConsentType))handler;
 
 /**
- *  Manually track "view appear" event
+ *  Add "view appear" event
  *
  *  @param event ONEScreenViewEvent object to store and send by SDK
  */
 + (void)trackScreenViewEvent:(ONEScreenViewEvent *)event;
+
+/**
+ *  Add custom event
+ *
+ *  @param event ONECustomEvent object to store and send by SDK
+ */
++ (void)trackCustomEvent:(ONECustomEvent *)event;
 
 /**
  *

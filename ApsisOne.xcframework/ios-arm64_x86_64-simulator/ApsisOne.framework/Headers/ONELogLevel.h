@@ -12,7 +12,7 @@
 /**
  Internal logging levels.
  */
-typedef NS_ENUM(NSInteger, ONELogLevel) {
+typedef NS_ENUM(NSUInteger, ONELogLevel) {
     /**
      Information log events.
      */
