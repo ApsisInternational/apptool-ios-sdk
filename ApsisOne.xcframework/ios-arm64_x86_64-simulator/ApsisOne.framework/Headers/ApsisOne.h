@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-// In this header, you should import all the public headers of your framework using statements like #import <ApsisOne/PublicHeader.h>
 #import <ApsisOne/ApsisOneAPI.h>
 #import <ApsisOne/ONEScreenViewEvent.h>
 #import <ApsisOne/ONECustomEvent.h>
 #import <ApsisOne/ONELogLevel.h>
 #import <ApsisOne/ONEConsentType.h>
+#import <ApsisOne/ONEPlacemark.h>
+#import <ApsisOne/ONELocationFrequency.h>

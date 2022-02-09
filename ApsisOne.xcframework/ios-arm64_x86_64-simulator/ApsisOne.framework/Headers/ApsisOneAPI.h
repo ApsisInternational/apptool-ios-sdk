@@ -10,6 +10,8 @@
 #import <ApsisOne/ONECustomEvent.h>
 #import <ApsisOne/ONELogLevel.h>
 #import <ApsisOne/ONEConsentType.h>
+#import <ApsisOne/ONEPlacemark.h>
+#import <ApsisOne/ONELocationFrequency.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -55,7 +57,6 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)trackCustomEvent:(ONECustomEvent *)event;
 
 /**
- *
  * Sets minimum log level. (default: ONELogLevelNone)
  * Available levels: ONELogLevelNone, ONELogLevelError, ONELogLevelWarning, ONELogLevelInfo.
  * Each subsequent level contains previous log event. E.g. ONELogLevelError contains only Error log events,
@@ -64,6 +65,45 @@ NS_ASSUME_NONNULL_BEGIN
  * @param logLevel ONELogLevel type
  */
 + (void)setMinimumLogLevel:(ONELogLevel)logLevel;
+
+/**
+ *  Add location event
+ *
+ *  @param latitude location latitude
+ *  @param longitude location latitude
+*/
++ (void)trackLocationWithLatitude:(double)latitude longitude:(double)longitude;
+
+/**
+ *  Add location event
+ *
+ *  @param latitude location latitude
+ *  @param longitude location latitude
+ *  @param placemark placemark you want to associate with location
+*/
++ (void)trackLocationWithLatitude:(double)latitude longitude:(double)longitude placemark:(ONEPlacemark * _Nullable)placemark;
+
+/**
+ *  Add location event
+ *
+ *  @param latitude location latitude
+ *  @param longitude location latitude
+ *  @param placemark placemark you want to associate with location
+ *  @param horizontalAccuracy The horizontal accuracy (in meters) of the specified coordinate
+*/
++ (void)trackLocationWithLatitude:(double)latitude longitude:(double)longitude placemark:(ONEPlacemark * _Nullable)placemark horizontalAccuracy:(NSUInteger)horizontalAccuracy;
+
+/**
+ *  Start collecting location with frrquency
+ *
+ *  @param frequency ONELocationFrequency type
+ */
++ (void)startCollectingLocation:(ONELocationFrequency)frequency;
+
+/**
+ *  Stop collecting location
+ */
++ (void)stopCollectingLocation;
 
 @end
 
