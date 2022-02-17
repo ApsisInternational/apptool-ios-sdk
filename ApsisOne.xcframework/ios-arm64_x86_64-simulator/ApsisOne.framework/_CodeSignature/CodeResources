@@ -42,7 +42,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ZGLELGv66XQZHHmSDdPpQXkw8H0=
+		uqPexYYq0iyCC54+QqD197QZtzY=
 		</data>
 		<key>KiteJSONValidator.license</key>
 		<data>
@@ -108,13 +108,17 @@
 		<data>
 		iB8Jg3grkYuv507jCMVWtv5dwPI=
 		</data>
-		<key>ONE.momd/ONE_V_0.2.omo</key>
+		<key>ONE.momd/ONE_V_0.3.mom</key>
 		<data>
-		YHF7D7Cb8XNYLj+bbH+ptz1HAC8=
+		2kzY2i5YEyZZCZK5duDOXGiIGyE=
+		</data>
+		<key>ONE.momd/ONE_V_0.3.omo</key>
+		<data>
+		loS75faVJjOzKweIlTu0Kgx23So=
 		</data>
 		<key>ONE.momd/VersionInfo.plist</key>
 		<data>
-		8o2BvQXlawN8wpTb/eZh2lEGUAk=
+		H+DiU2qINs00PwQ4YKzZQSaTgeA=
 		</data>
 		<key>RSSwizzle.license</key>
 		<data>
@@ -302,18 +306,25 @@
 			Q77CvW8/dz3x4K3pxpdFSH8J93nRUx9U21aXkDH/Wa0=
 			</data>
 		</dict>
-		<key>ONE.momd/ONE_V_0.2.omo</key>
+		<key>ONE.momd/ONE_V_0.3.mom</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yaENtAMm8in5YabRLowb85URMYK4c1uU/NMjBAS3DK4=
+			OzUpst25574un0fOSv9va92tqAgO68XtD+/nw07W9vo=
+			</data>
+		</dict>
+		<key>ONE.momd/ONE_V_0.3.omo</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			JckBypW0BdzFmz07ODLrTB0rMOrBz3dudQFe+bjCqzs=
 			</data>
 		</dict>
 		<key>ONE.momd/VersionInfo.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UlfNgqrJR5ORaLuRBnuLnNjdrYIJ5yyk6+2Hq2ZpdvI=
+			LMDHYrjUniYCNEGRRAHHVM+aW0/RWzJACRfiVpSxMQY=
 			</data>
 		</dict>
 		<key>RSSwizzle.license</key>
