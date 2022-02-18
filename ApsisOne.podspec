@@ -1,0 +1,11 @@
+Pod::Spec.new do |spec|
+  spec.name         = 'ApsisOne'
+  spec.version      = '0.8.1-beta'
+  spec.summary      = 'AppTool iOS SDK'
+  spec.homepage     = 'http://apsis.one'
+  spec.license      = { :type => 'Custom', :file => 'LICENSE' }
+  s.authors         = 'APSIS International AB'
+  spec.platform     = :ios, '11.0'
+  spec.source       = { :git => 'https://github.com/ApsisInternational/apptool-ios-sdk.git', :tag => "#{spec.version}" }
+  spec.vendored_frameworks = 'ApsisOne.xcframework'
+end

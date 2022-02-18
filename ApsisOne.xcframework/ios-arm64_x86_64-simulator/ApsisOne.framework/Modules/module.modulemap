@@ -1,0 +1,11 @@
+framework module ApsisOne {
+  umbrella header "ApsisOne.h"
+
+  export *
+  module * { export * }
+}
+
+module ApsisOne.Swift {
+    header "ApsisOne-Swift.h"
+    requires objc
+}
