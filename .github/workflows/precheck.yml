@@ -1,0 +1,17 @@
+on:
+  push:
+    branches:
+      - 'release/**'
+      
+name: Prechecks
+jobs:
+  CocoaPods:
+    runs-on: macos-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Check podspecs
+      run: |
+        pod lib lint
