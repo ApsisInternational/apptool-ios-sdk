@@ -12,6 +12,7 @@
 #import <ApsisOne/ONEConsentType.h>
 #import <ApsisOne/ONEPlacemark.h>
 #import <ApsisOne/ONELocationFrequency.h>
+#import <UIKit/UIView.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -97,13 +98,30 @@ NS_ASSUME_NONNULL_BEGIN
  *  Start collecting location with frrquency
  *
  *  @param frequency ONELocationFrequency type
- */
+*/
 + (void)startCollectingLocation:(ONELocationFrequency)frequency;
 
 /**
  *  Stop collecting location
- */
+*/
 + (void)stopCollectingLocation;
+
+/**
+ * Synchronously makes a proxy view, which will load contextual message by provided discriminator
+ *
+ * @param messageId The discriminator of desired contextual message view.
+ * @return  returns the placeholder view which will try to load the contextual message.
+*/
++ (UIView *)contextualMessageViewWithId:(NSString *)messageId;
+
+/**
+ * Asynchronously load contextual message by provided discriminator
+ *
+ * @param messageId The discriminator of desired contextual message view.
+ * @param onFinishHandler A block object to be executed when view building finished. This block takes a single UIView argument that contains contextual message view. This parameter may be NULL.
+*/
++ (void)loadContextualMessageViewWithId:(NSString *)messageId
+                               onFinish:(void(^)(UIView * _Nullable))onFinishHandler;
 
 @end
 

@@ -1,0 +1,316 @@
+[
+  {
+    "id": 3586435,
+    "discriminator": "com.apsis1.messages.some-message-discriminator-9dh38wrqca",
+    "conditions": {
+      "title": "screen title"
+    },
+    "messageBody": [
+      {
+        "type": "text",
+        "value": "Some Header",
+        "params": {
+          "size": 24,
+          "align": "center",
+          "style": "bold",
+          "foreground": "000000"
+        },
+        "action": "headerActionId"
+      },
+      {
+        "type": "text",
+        "value": "Some sensible text content",
+        "params": {
+          "size": 18,
+          "align": "left",
+          "style": "regular",
+          "foreground": "000000"
+        },
+        "action": "bodyActionId"
+      },
+      {
+        "type": "image",
+        "value": "https://cdn.dribbble.com/users/2789762/screenshots/8630894/media/583b209224b027954cb6e8b9901cb731.gif",
+        "params": {
+          "width": 800,
+          "height": 600
+        },
+        "action": "imageActionId"
+      },
+      {
+        "type": "text",
+        "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sodales diam a turpis vulputate, a semper nibh varius. Nunc sit amet ultricies mi. Ut porttitor scelerisque eleifend. Quisque id lorem quis enim vulputate tempor. Donec sagittis felis libero, quis semper erat malesuada sed. In elementum magna sed faucibus fermentum. Pellentesque feugiat neque a malesuada semper. Etiam egestas lectus eu est cursus fringilla iaculis nec leo.\nAenean semper velit in nisl tincidunt pellentesque. Nullam in posuere ante, at viverra purus. Nulla quis neque quis massa pharetra mollis. Sed id urna diam. Vestibulum eget risus sollicitudin, volutpat magna sed, egestas ex. Fusce quis neque volutpat mi tincidunt elementum. Proin a justo a tortor pretium cursus non eget libero. Proin pulvinar ligula id sapien luctus ultrices. Curabitur ut leo nec nulla tempor porta. Fusce porttitor ipsum non elementum suscipit. Fusce elit odio, ultrices id pharetra ut, scelerisque vitae nisi.",
+        "params": {
+          "size": 15,
+          "align": "left",
+          "style": "regular",
+          "foreground": "000000"
+        },
+        "action": "bodyActionId"
+      },
+      {
+        "type": "button",
+        "value": "Yes",
+        "params": {
+          "foreground": "007bff",
+          "background": "ffffff"
+        },
+        "action": "yesButtonActionId"
+      },
+      {
+        "type": "button",
+        "value": "No",
+        "params": {
+          "foreground": "007bff",
+          "background": "ffffff"
+        },
+        "action": "noButtonActionId"
+      },
+      {
+        "type": "button",
+        "value": "Close",
+        "params": {
+          "foreground": "007bff",
+          "background": "ffffff"
+        },
+        "action": "closeButtonActionId"
+      }
+    ],
+    "triggerEventId": 1099855,
+    "presentationType": "showMessageAction"
+  },
+  {
+    "id": 3597232,
+    "discriminator": "com.apsis1.messages.some-message-discriminator-9dh38wrqcd",
+    "conditions": {},
+    "messageBody": [
+      {
+        "type": "text",
+        "value": "Some Header",
+        "params": {
+          "size": 24,
+          "align": "center",
+          "style": "bold",
+          "foreground": "000000"
+        },
+        "action": "someActionId"
+      },
+      {
+        "type": "text",
+        "value": "Some sensible text content",
+        "params": {
+          "size": 18,
+          "align": "left",
+          "style": "regular",
+          "foreground": "000000"
+        },
+        "action": "someActionId"
+      },
+      {
+        "type": "image",
+        "value": "https://cdn.dribbble.com/users/2789762/screenshots/8630894/media/583b209224b027954cb6e8b9901cb731.gif",
+        "params": {
+          "width": 800,
+          "height": 600
+        },
+        "action": "someActionId"
+      },
+      {
+        "type": "text",
+        "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sodales diam a turpis vulputate, a semper nibh varius. Nunc sit amet ultricies mi. Ut porttitor scelerisque eleifend. Quisque id lorem quis enim vulputate tempor. Donec sagittis felis libero, quis semper erat malesuada sed. In elementum magna sed faucibus fermentum. Pellentesque feugiat neque a malesuada semper. Etiam egestas lectus eu est cursus fringilla iaculis nec leo.\nAenean semper velit in nisl tincidunt pellentesque. Nullam in posuere ante, at viverra purus. Nulla quis neque quis massa pharetra mollis. Sed id urna diam. Vestibulum eget risus sollicitudin, volutpat magna sed, egestas ex. Fusce quis neque volutpat mi tincidunt elementum. Proin a justo a tortor pretium cursus non eget libero. Proin pulvinar ligula id sapien luctus ultrices. Curabitur ut leo nec nulla tempor porta. Fusce porttitor ipsum non elementum suscipit. Fusce elit odio, ultrices id pharetra ut, scelerisque vitae nisi.",
+        "params": {
+          "size": 15,
+          "align": "left",
+          "style": "regular",
+          "foreground": "000000"
+        },
+        "action": "bodyActionId"
+      },
+      {
+        "type": "button",
+        "value": "Yes",
+        "params": {
+          "foreground": "007bff",
+          "background": "ffffff"
+        },
+        "action": "yesButtonActionId"
+      },
+      {
+        "type": "button",
+        "value": "No",
+        "params": {
+          "foreground": "007bff",
+          "background": "ffffff"
+        },
+        "action": "noButtonActionId"
+      }
+    ],
+    "presentationType": "buildInMessage"
+  },
+  {
+    "id": 3593632,
+    "discriminator": "com.apsis1.messages.some-message-discriminator-9dh38wrqcb",
+    "conditions": {
+      "latitude": 43.614511,
+      "longitude": 39.744738
+    },
+    "messageBody": [
+      {
+        "type": "text",
+        "value": "Some Header",
+        "params": {
+          "size": 24,
+          "align": "center",
+          "style": "bold",
+          "foreground": "000000"
+        },
+        "action": "someActionId"
+      },
+      {
+        "type": "text",
+        "value": "Some sensible text content",
+        "params": {
+          "size": 18,
+          "align": "left",
+          "style": "regular",
+          "foreground": "000000"
+        },
+        "action": "someActionId"
+      },
+      {
+        "type": "image",
+        "value": "https://cdn.dribbble.com/users/2789762/screenshots/8630894/media/583b209224b027954cb6e8b9901cb731.gif",
+        "params": {
+          "width": 800,
+          "height": 600
+        },
+        "action": "someActionId"
+      },
+      {
+        "type": "text",
+        "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sodales diam a turpis vulputate, a semper nibh varius. Nunc sit amet ultricies mi. Ut porttitor scelerisque eleifend. Quisque id lorem quis enim vulputate tempor. Donec sagittis felis libero, quis semper erat malesuada sed. In elementum magna sed faucibus fermentum. Pellentesque feugiat neque a malesuada semper. Etiam egestas lectus eu est cursus fringilla iaculis nec leo.\nAenean semper velit in nisl tincidunt pellentesque. Nullam in posuere ante, at viverra purus. Nulla quis neque quis massa pharetra mollis. Sed id urna diam. Vestibulum eget risus sollicitudin, volutpat magna sed, egestas ex. Fusce quis neque volutpat mi tincidunt elementum. Proin a justo a tortor pretium cursus non eget libero. Proin pulvinar ligula id sapien luctus ultrices. Curabitur ut leo nec nulla tempor porta. Fusce porttitor ipsum non elementum suscipit. Fusce elit odio, ultrices id pharetra ut, scelerisque vitae nisi.",
+        "params": {
+          "size": 15,
+          "align": "left",
+          "style": "regular",
+          "foreground": "000000"
+        },
+        "action": "bodyActionId"
+      },
+      {
+        "type": "button",
+        "value": "Yes",
+        "params": {
+          "foreground": "007bff",
+          "background": "ffffff"
+        },
+        "action": "yesButtonActionId"
+      },
+      {
+        "type": "button",
+        "value": "No",
+        "params": {
+          "foreground": "007bff",
+          "background": "ffffff"
+        },
+        "action": "noButtonActionId"
+      },
+      {
+        "type": "button",
+        "value": "Close",
+        "params": {
+          "foreground": "007bff",
+          "background": "ffffff"
+        },
+        "action": "closeButtonActionId"
+      }
+    ],
+    "triggerEventId": 3485106,
+    "presentationType": "showViewMessageAction"
+  },
+  {
+    "id": 3597240,
+    "discriminator": "com.apsis1.messages.some-message-discriminator-banner1",
+    "conditions": {},
+    "messageBody": [
+      {
+        "type": "image",
+        "value": "https://i.ibb.co/QdztPpf/Screenshot-2022-07-05-at-12-48-14.png",
+        "params": {
+          "width": 1640,
+          "height": 920
+        },
+        "action": "banner1Click"
+      }
+    ],
+    "presentationType": "buildInMessage"
+  },
+  {
+    "id": 3597241,
+    "discriminator": "com.apsis1.messages.some-message-discriminator-banner2",
+    "conditions": {},
+    "messageBody": [
+      {
+        "type": "image",
+        "value": "https://i.ibb.co/GJVmq4f/Screenshot-2022-07-05-at-12-47-33.png",
+        "params": {
+          "width": 1640,
+          "height": 920
+        },
+        "action": "banner2Click"
+      }
+    ],
+    "presentationType": "buildInMessage"
+  },
+  {
+    "id": 3597242,
+    "discriminator": "com.apsis1.messages.some-message-discriminator-banner3",
+    "conditions": {},
+    "messageBody": [
+      {
+        "type": "image",
+        "value": "https://i.ibb.co/Tw5Z8F9/Screenshot-2022-07-05-at-12-47-23.png",
+        "params": {
+          "width": 1640,
+          "height": 920
+        },
+        "action": "banner3Click"
+      }
+    ],
+    "presentationType": "buildInMessage"
+  },
+  {
+    "id": 3597243,
+    "discriminator": "com.apsis1.messages.some-message-discriminator-banner4",
+    "conditions": {},
+    "messageBody": [
+      {
+        "type": "image",
+        "value": "https://i.ibb.co/qRrVYZW/Screenshot-2022-07-05-at-12-46-56.png",
+        "params": {
+          "width": 1640,
+          "height": 920
+        },
+        "action": "banner4Click"
+      }
+    ],
+    "presentationType": "buildInMessage"
+  },
+  {
+    "id": 3597244,
+    "discriminator": "com.apsis1.messages.some-message-discriminator-banner5",
+    "conditions": {},
+    "messageBody": [
+      {
+        "type": "image",
+        "value": "https://i.ibb.co/TH0DPPz/Screenshot-2022-07-05-at-12-46-47.png",
+        "params": {
+          "width": 1640,
+          "height": 920
+        },
+        "action": "banner5Click"
+      }
+    ],
+    "presentationType": "buildInMessage"
+  }
+]
