@@ -73,7 +73,8 @@ NS_ASSUME_NONNULL_BEGIN
  *  @param latitude location latitude
  *  @param longitude location latitude
 */
-+ (void)trackLocationWithLatitude:(double)latitude longitude:(double)longitude;
++ (void)trackLocationWithLatitude:(double)latitude
+                        longitude:(double)longitude;
 
 /**
  *  Add location event
@@ -82,7 +83,9 @@ NS_ASSUME_NONNULL_BEGIN
  *  @param longitude location latitude
  *  @param placemark placemark you want to associate with location
 */
-+ (void)trackLocationWithLatitude:(double)latitude longitude:(double)longitude placemark:(ONEPlacemark * _Nullable)placemark;
++ (void)trackLocationWithLatitude:(double)latitude
+                        longitude:(double)longitude
+                        placemark:(ONEPlacemark * _Nullable)placemark;
 
 /**
  *  Add location event
@@ -92,7 +95,10 @@ NS_ASSUME_NONNULL_BEGIN
  *  @param placemark placemark you want to associate with location
  *  @param horizontalAccuracy The horizontal accuracy (in meters) of the specified coordinate
 */
-+ (void)trackLocationWithLatitude:(double)latitude longitude:(double)longitude placemark:(ONEPlacemark * _Nullable)placemark horizontalAccuracy:(NSUInteger)horizontalAccuracy;
++ (void)trackLocationWithLatitude:(double)latitude
+                        longitude:(double)longitude
+                        placemark:(ONEPlacemark * _Nullable)placemark
+               horizontalAccuracy:(NSUInteger)horizontalAccuracy;
 
 /**
  *  Start collecting location with frrquency
