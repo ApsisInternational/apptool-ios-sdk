@@ -6,11 +6,6 @@ import Swift
 import SwiftUI
 import _Concurrency
 @available(iOS 13.0, *)
-extension SwiftUI.View {
-  public func trackView(viewName: Swift.String, viewClass: Swift.String = "View") -> some SwiftUI.View
-  
-}
-@available(iOS 13.0, *)
 public struct ONEContextualMessageSwiftUIView : SwiftUI.View {
   public typealias ViewTapHandler = ((Swift.String) -> ())
   public init(messageId: Swift.String, onViewTap: ApsisOne.ONEContextualMessageSwiftUIView.ViewTapHandler? = nil)
@@ -18,4 +13,9 @@ public struct ONEContextualMessageSwiftUIView : SwiftUI.View {
     get
   }
   public typealias Body = @_opaqueReturnTypeOf("$s8ApsisOne31ONEContextualMessageSwiftUIViewV4bodyQrvp", 0) __
+}
+@available(iOS 13.0, *)
+extension SwiftUI.View {
+  public func trackView(viewName: Swift.String, viewClass: Swift.String = "View") -> some SwiftUI.View
+  
 }

@@ -129,6 +129,13 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)loadContextualMessageViewWithId:(NSString *)messageId
                                onFinish:(void(^)(UIView * _Nullable))onFinishHandler;
 
+/**
+ * Updates push notifications token
+ *
+ * @param token Push token.
+*/
++ (void)updatePushToken:(NSString *)token;
+
 @end
 
 NS_ASSUME_NONNULL_END
