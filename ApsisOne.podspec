@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = 'ApsisOne'
-  spec.version      = '0.10.4'
+  spec.version      = '0.10.5'
   spec.summary      = 'AppTool iOS SDK'
   spec.homepage     = 'http://apsis.one'
   spec.license      = { :type => 'Custom', :file => 'LICENSE' }
