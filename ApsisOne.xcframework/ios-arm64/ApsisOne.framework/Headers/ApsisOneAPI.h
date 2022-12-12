@@ -136,6 +136,20 @@ NS_ASSUME_NONNULL_BEGIN
 */
 + (void)updatePushToken:(NSString *)token;
 
+/**
+ * Provide consent topics for push notifications
+ *
+ * @param topics array of consent topics.
+ */
++ (void)subscribePushNotificationTopics:(NSArray<NSString *> *)topics;
+
+/**
+ * Remove consent topics for push notifications
+ *
+ * @param topics array of consent topics.
+ */
++ (void)unsubscribePushNotificationTopics:(NSArray<NSString *> *)topics;
+
 @end
 
 NS_ASSUME_NONNULL_END
