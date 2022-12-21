@@ -22,12 +22,6 @@ typedef NS_ENUM(NSUInteger, ONEConsentType) {
      Collectiing user location data consent
      */
     ONEConsentTypeCollectLocation = 2,
-
-    /**
-     Push Notifications consent
-     */
-    ONEConsentTypePushNotifications = 3,
-
 };
 
 #endif /* ONEConsentType_h */
