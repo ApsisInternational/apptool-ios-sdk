@@ -14,11 +14,11 @@
 		</data>
 		<key>Headers/ApsisOneAPI.h</key>
 		<data>
-		V2c8T3PV+DP/IC0CwRcDr/r2CeQ=
+		dD3uq2wj2UA/K0bhlQZaaZljIuo=
 		</data>
 		<key>Headers/ONEConsentType.h</key>
 		<data>
-		dt8pIFsA5FTMXgYBhJYMYFT/6HY=
+		iEGT8AubYPBp44kSrpB0Fb1JBYI=
 		</data>
 		<key>Headers/ONECustomEvent.h</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		MkNHT0/Bpen+GfYDXCqgy7uv6D4=
+		QuXbXCm4IROsMpQXfNAxTiD7/cg=
 		</data>
 		<key>KiteJSONValidator.license</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/ApsisOne.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Q0bPWTo/aIyLkvQVR2Eq93AIQRI=
+		z4RPXJyrUpUxYP6jJ1mYdeJKpBc=
 		</data>
 		<key>Modules/ApsisOne.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>Modules/ApsisOne.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		Q0bPWTo/aIyLkvQVR2Eq93AIQRI=
+		z4RPXJyrUpUxYP6jJ1mYdeJKpBc=
 		</data>
 		<key>Modules/ApsisOne.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>Modules/ApsisOne.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		rKhHFfvVjrvWg0PsfXDD252hOUo=
+		KyPozf2qeKTjJntYYkMOtdUZNzY=
 		</data>
 		<key>Modules/ApsisOne.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -94,7 +94,7 @@
 		</data>
 		<key>Modules/ApsisOne.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		rKhHFfvVjrvWg0PsfXDD252hOUo=
+		KyPozf2qeKTjJntYYkMOtdUZNzY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -112,13 +112,21 @@
 		<data>
 		2kzY2i5YEyZZCZK5duDOXGiIGyE=
 		</data>
-		<key>ONE.momd/ONE_V_0.3.omo</key>
+		<key>ONE.momd/ONE_V_0.4.mom</key>
 		<data>
-		loS75faVJjOzKweIlTu0Kgx23So=
+		1r62SmwyV0L7udBVzymSLHhNxgo=
+		</data>
+		<key>ONE.momd/ONE_V_0.5.mom</key>
+		<data>
+		h+/NcqOfNAvwuVvp/AY66tw+i+8=
+		</data>
+		<key>ONE.momd/ONE_V_0.5.omo</key>
+		<data>
+		/8JS5Jlu4B8zlbK+UDkQMSCIOps=
 		</data>
 		<key>ONE.momd/VersionInfo.plist</key>
 		<data>
-		VlzFFjnLG/n6HSpftKBsv0l8Evs=
+		eN0fr+ly5HndK9fRuuWPttp2gCI=
 		</data>
 		<key>RSSwizzle.license</key>
 		<data>
@@ -153,14 +161,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lnLB0LZQuwIPRPSC2r3n/yO3cKy0ndLt4hN9e+Rc5Ho=
+			Qw7p15KaLYFfLcZX5EsXvACri0cAhVQc6khTQSAdrlA=
 			</data>
 		</dict>
 		<key>Headers/ONEConsentType.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jRjEi2yQ7vz9Wqwv0m4A0QHX5NmfsmZfryA8q5e4mg8=
+			fxbFo3IKjMTGsS0YnnOfh4z6OGbdb1M38Ni7X4BOPT8=
 			</data>
 		</dict>
 		<key>Headers/ONECustomEvent.h</key>
@@ -223,7 +231,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HFmNz3CwQ/ubQyK1juozlfFOakic38czgzhhhszrOzk=
+			efbe/1zC9RN/hSJWERXS7SDvcQBuXqilasiPic6dsfw=
 			</data>
 		</dict>
 		<key>Modules/ApsisOne.swiftmodule/arm64.swiftdoc</key>
@@ -244,7 +252,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HFmNz3CwQ/ubQyK1juozlfFOakic38czgzhhhszrOzk=
+			efbe/1zC9RN/hSJWERXS7SDvcQBuXqilasiPic6dsfw=
 			</data>
 		</dict>
 		<key>Modules/ApsisOne.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -265,7 +273,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VCufiM5etzDN4LyjhMMZnzPwDEyE5H5iVY8tlRTYp/o=
+			elH62uCN5qjsWqnLRS8D15j7FaYWCvG2zoA6gvOBvbg=
 			</data>
 		</dict>
 		<key>Modules/ApsisOne.swiftmodule/x86_64.swiftdoc</key>
@@ -286,7 +294,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VCufiM5etzDN4LyjhMMZnzPwDEyE5H5iVY8tlRTYp/o=
+			elH62uCN5qjsWqnLRS8D15j7FaYWCvG2zoA6gvOBvbg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -317,18 +325,32 @@
 			OzUpst25574un0fOSv9va92tqAgO68XtD+/nw07W9vo=
 			</data>
 		</dict>
-		<key>ONE.momd/ONE_V_0.3.omo</key>
+		<key>ONE.momd/ONE_V_0.4.mom</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JckBypW0BdzFmz07ODLrTB0rMOrBz3dudQFe+bjCqzs=
+			biO4xlwVAIZLjyeRPGsuHliK63kWjGxmy4g9A8KN3RU=
+			</data>
+		</dict>
+		<key>ONE.momd/ONE_V_0.5.mom</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			clF+Z9YuiAs+VuIikUi5EbqoagKBs0B4Q06JGYvuyWk=
+			</data>
+		</dict>
+		<key>ONE.momd/ONE_V_0.5.omo</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			QZjK+IHwwEkHINnfJP2q5DJ6fKxCsC8Er9ZwrMDaK38=
 			</data>
 		</dict>
 		<key>ONE.momd/VersionInfo.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YdKeA9vuYYCPTgDwpu4GTdkum5wiavkiRtvfj2EPWAA=
+			NqjPrkgCRBqjjFf7cH2QDM1TUDh1dDnYLfc1SUCyDzQ=
 			</data>
 		</dict>
 		<key>RSSwizzle.license</key>
