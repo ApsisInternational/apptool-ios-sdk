@@ -83,6 +83,43 @@ To let framework collecting location in background, even application was closed,
 ```
 or Target -> Signing & Capabilities -> Background modes -> Location updates
 
+## Push Notifications
+
+To allow sending push notifications you have to subscribe on topics using [subscribePushNotificationTopics: method](https://docs.webscript-stage.apsis.cloud/ios/Classes/ApsisOneAPI.html#/c:objc(cs)ApsisOneAPI(cm)subscribePushNotificationTopics:) e.g.:
+
+Objective-C
+```objc
+[ApsisOneAPI subscribePushNotificationTopics:@[@"some.consent.topic.discriminator"]];
+```
+
+Swift
+```Swift
+ApsisOneAPI.subscribePushNotificationTopics(["some.consent.topic.discriminator"])
+```
+
+To stop receiving topic notifications use [unsubscribe method](https://docs.webscript-stage.apsis.cloud/ios/Classes/ApsisOneAPI.html#/c:objc(cs)ApsisOneAPI(cm)unsubscribePushNotificationTopics:), e.g.:
+
+Objective-C
+```objc
+[ApsisOneAPI unsubscribePushNotificationTopics:@[@"some.consent.topic.discriminator"]];
+```
+
+Swift
+```Swift
+ApsisOneAPI.unsubscribePushNotificationTopics(["some.consent.topic.discriminator"])
+```
+
+If there was no request for user's permission for push notifications yet, SDK will ask user for permission on first subscription call.
+
+To let framework process and show notification add remote-notification to allowed background modes in Info.plist
+```xml
+    <key>UIBackgroundModes</key>
+    <array>
+        <string>remote-notification</string>
+    </array>
+```
+or Target -> Signing & Capabilities -> Background modes -> Remote Notifications
+
 ## Documentation
 
 Documentation for the project can be found [here](https://docs.ws.apsis.one/ios/index.html)
