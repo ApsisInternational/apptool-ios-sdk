@@ -6,6 +6,6 @@ framework module ApsisOne {
 }
 
 module ApsisOne.Swift {
-    header "ApsisOne-Swift.h"
-    requires objc
+  header "ApsisOne-Swift.h"
+  requires objc
 }
